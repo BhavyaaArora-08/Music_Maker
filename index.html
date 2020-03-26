@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tap Music</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <h1>Tap Music</h1>
+      <p>Make music with only one tap</p>
+    </header>
+    <div id="x" class="visual"><h1>Visual</h1></div>
+    <div class="pads">
+      <div class="pad1" onclick="play(this,0)" onkeypress="keyp">
+        <audio id="p1" class="sound" src="sounds/bubbles.mp3"></audio>
+        S
+      </div>
+      <div class="pad2" onclick="play(this,1)" onkeypress="keyp">
+        <audio id="p2" class="sound" src="sounds/clay.mp3"></audio>
+        D
+      </div>
+      <div class="pad3" onclick="play(this,2)" onkeypress="keyp">
+        <audio id="p3" class="sound" src="sounds/confetti.mp3"></audio>
+        F
+      </div>
+      <div class="pad4" onclick="play(this,3)" onkeypress="keyp">
+        <audio id="p4" class="sound" src="sounds/glimmer.mp3"></audio>
+        G
+      </div>
+      <div class="pad5" onclick="play(this,4)" onkeypress="keyp">
+        <audio id="p5" class="sound" src="sounds/moon.mp3"></audio>
+        H
+      </div>
+      <div class="pad6" onclick="play(this,5)" onkeypress="keyp">
+        <audio id="p6" class="sound" src="sounds/ufo.mp3"></audio>
+        J    
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
